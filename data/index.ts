@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Approch", link: "approch" },
+  { name: "Approch", link: "#approch" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -83,7 +83,7 @@ export const projects = [
     title: "3D-Scroll-Portfolio",
     des: "I'm a web developer who crafts stunning 3D experiences with React, Next.js, and Three.js. Let's Make Something Unforgettable!",
     img: "./3dscroll.png",
-    iconLists: ["./re.svg", "./tail.svg", "./ts.svg"],
+    iconLists: ["./re.svg", "./three.svg", "./tail.svg", "./ts.svg"],
     link: "https://libawit.github.io/3D-Scroll-Portfolio/",
   },
   {

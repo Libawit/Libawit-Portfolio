@@ -5,13 +5,12 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 
-import { workExperience } from "@/data";
 import { Button } from "./ui/ProjectBorders";
 import MagicButton from "./ui/MagicButton";
 
 const Projects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="#projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">Recent projects</span>
@@ -41,7 +40,7 @@ const Projects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src="./bg.png" alt="bgimg" />
                 </div>
                 <img
                   src={item.img}
